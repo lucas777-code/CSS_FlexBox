@@ -1,0 +1,2 @@
+Consegui terminar o FlexBox Frog Game usando as habilidades que aprendi e pratiquei durante as aulas. Foi uma ótima oportunidade para aplicar o que estudei e superar os desafios do projeto, o que me ajudou a entender melhor os conceitos e ganhar mais experiência prática no desenvolvimento de jogos.
+![Captura de tela 2024-09-10 095141](https://github.com/user-attachments/assets/b07211c9-1581-4f95-b92d-f9a2eeb84a88)
