@@ -1,21 +1,61 @@
+
+/* zerando as configurações */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.products p{
+/* Etilizando o parágrafo */
+.products p {
     margin: 0;
     text-align: center;
     padding: 10px;
-    color: cyan;
+    color: #333;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-header{
+header {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
-    color: blueviolet;
-    padding: 30px;
-    background-color: darkgreen;
+    color:#333;
+    padding:30px;
+    background-color: #d3d3d3;
 }
+
+main#album{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+section.coluna{
+    flex: 1 1 100%;
+    padding: 0px 5px;
+}
+
+.products{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding:20px;
+    margin-bottom:20px;
+    /* transformando em container */
+    display: flex;
+    /* deixa o texto embaixo da imagem */
+    flex-direction: column;
+}
+.products img{
+    width:100%;
+    height:auto;
+    padding-bottom:10px;
+}
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    background-color: #000000;
+    color:#ffffff;
+    padding:30px;
+    text-align:center;
+}
+
